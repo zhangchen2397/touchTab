@@ -5,9 +5,11 @@ touchTab 横向滑动tab组件
 
 ###对外事件
 
- * @customEvent canTouchTabMove touchmove时触发，此时可处理滑动tab
- * @customEvent clearTouchTabMove touchend时触发，可以滑动但不满足切换条件时触发
- * @customEvent canTouchTabSwitch touchend时触发，达到切换条件，触发切换事件
+```
+@customEvent canTouchTabMove touchmove时触发，此时可处理滑动tab
+@customEvent clearTouchTabMove touchend时触发，可以滑动但不满足切换条件时触发
+@customEvent canTouchTabSwitch touchend时触发，达到切换条件，触发切换事件
+```
 
 ###使用
 ```javascript
@@ -30,4 +32,4 @@ $.bind(touchTabIns, 'canTouchTabSwitch', function() {
 ```
 
 ###demo 扫描以下二维码手机体验
-![]
+![demo](https://github.com/zhangchen2397/touchTab/blob/master/qrcode.png?raw=true)
