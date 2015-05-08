@@ -10,7 +10,7 @@ touchTab 横向滑动tab组件
  * @customEvent canTouchTabSwitch touchend时触发，达到切换条件，触发切换事件
 
 ###使用
-`javascript
+```javascript
 var touchTabIns = new touchTab({
     el: $( document.body ),  //绑定事件的dom元素 id或jq对象
     offsetX: 50              //触摸起止X偏移值，大于些值才会触发下拉事件  
@@ -27,6 +27,7 @@ $.bind(touchTabIns, 'clearTouchTabMove', function() {
 $.bind(touchTabIns, 'canTouchTabSwitch', function() {
     //达到切换条件，触发切换事件
 });
+```
 
 ###demo 扫描以下二维码手机体验
 ![]
